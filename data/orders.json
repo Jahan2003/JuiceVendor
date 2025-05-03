@@ -1,0 +1,85 @@
+[
+  {
+    "id": "123456",
+    "orderNumber": "ORD-123456",
+    "date": "2025-05-01T14:30:00.000Z",
+    "status": "completed",
+    "items": [
+      {
+        "id": 1,
+        "name": "Orange Sunrise",
+        "price": 50,
+        "quantity": 2,
+        "image": "/orangeJuice.png?height=100&width=100"
+      },
+      {
+        "id": 3,
+        "name": "Berry Bliss",
+        "price": 60,
+        "quantity": 1,
+        "image": "/berryJuice.png?height=100&width=100"
+      }
+    ],
+    "subtotal": 160,
+    "tax": 12.8,
+    "total": 172.8,
+    "paymentMethod": "Visa •••• 4242",
+    "location": {
+      "name": "Downtown Vending Machine",
+      "address": "123 Main Street, City Center"
+    }
+  },
+  {
+    "id": "123457",
+    "orderNumber": "ORD-123457",
+    "date": "2025-04-30T10:15:00.000Z",
+    "status": "completed",
+    "items": [
+      {
+        "id": 2,
+        "name": "Green Detox",
+        "price": 80,
+        "quantity": 1,
+        "image": "/greenJuice.png?height=100&width=100"
+      }
+    ],
+    "subtotal": 80,
+    "tax": 6.4,
+    "total": 86.4,
+    "paymentMethod": "Google Pay",
+    "location": {
+      "name": "Uptown Vending Machine",
+      "address": "456 Park Avenue, Uptown"
+    }
+  },
+  {
+    "id": "123458",
+    "orderNumber": "ORD-123458",
+    "date": "2025-04-25T16:45:00.000Z",
+    "status": "completed",
+    "items": [
+      {
+        "id": 1,
+        "name": "Orange Sunrise",
+        "price": 50,
+        "quantity": 1,
+        "image": "/orangeJuice.png?height=100&width=100"
+      },
+      {
+        "id": 3,
+        "name": "Berry Bliss",
+        "price": 60,
+        "quantity": 3,
+        "image": "/berryJuice.png?height=100&width=100"
+      }
+    ],
+    "subtotal": 230,
+    "tax": 18.4,
+    "total": 248.4,
+    "paymentMethod": "Visa •••• 5678",
+    "location": {
+      "name": "Mall Vending Machine",
+      "address": "789 Shopping Center, Mall District"
+    }
+  }
+]
