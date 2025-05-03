@@ -14,6 +14,7 @@ export default function Dashboard() {
       color: "bg-orange-100",
       textColor: "text-orange-800",
       buttonColor: "bg-orange-500 hover:bg-orange-600",
+      article: "https://m.economictimes.com/news/india/why-you-should-drink-orange-juice-every-day-this-summer/slideshow/120203411.cms"
     },
     {
       id: 2,
@@ -25,6 +26,7 @@ export default function Dashboard() {
       color: "bg-green-100",
       textColor: "text-green-800",
       buttonColor: "bg-green-600 hover:bg-green-700",
+      article: "https://www.kqed.org/bayareabites/42633/spring-cleansing-juicing"
     },
     {
       id: 3,
@@ -36,6 +38,7 @@ export default function Dashboard() {
       color: "bg-purple-100",
       textColor: "text-purple-800",
       buttonColor: "bg-purple-600 hover:bg-purple-700",
+      article:"https://www.pommenaturalmarket.com/pomme-tips/2023/6/29/berry-bliss#:~:text=From%20succulent%20strawberries%20to%20luscious%20blueberries%2C%20vibrant,bursting%20with%20antioxidants%2C%20flavonoids%20and%20vitamin%20C."
     },
   ]
 

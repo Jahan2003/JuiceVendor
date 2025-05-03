@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion"
 import Image from "next/image"
-import { ShoppingCart } from "lucide-react"
+import { Link, ShoppingCart } from "lucide-react"
 import { toast } from "sonner"
 
 import { Button } from "@/components/ui/button"
@@ -17,6 +17,7 @@ interface Juice {
   color: string
   textColor: string
   buttonColor: string
+  article: string
 }
 
 interface JuiceDisplayProps {
@@ -83,8 +84,18 @@ export default function JuiceDisplay({ juice, reverse = false }: JuiceDisplayPro
             transition={{ duration: 0.6, delay: 0.3 }}
           >
             <h2 className={`text-3xl md:text-4xl font-bold mb-4 ${juice.textColor}`}>{juice.name}</h2>
-            <p className="text-gray-700 mb-6 text-lg">{juice.description}</p>
-
+            <p className="text-gray-700 mb-3 text-lg">{juice.description}</p>
+            {juice.article && (
+              <a
+                href={juice.article}
+                target="_blank"
+                rel="noopener noreferrer"
+                className={`inline-flex items-center gap-2 ${juice.textColor} hover:underline text-lg mb-6`}
+              >
+                <Link className="w-4 h-4" />
+                Read about the benefits
+              </a>
+            )}
             <div className="flex flex-col sm:flex-row items-center gap-4">
               <p className={`text-2xl font-bold ${juice.textColor}`}>Rs. {juice.price.toFixed(2)}</p>
               <Button className={`${juice.buttonColor} text-white px-8 py-6 text-lg`} onClick={handleAddToCart}>
